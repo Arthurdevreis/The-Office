@@ -1,0 +1,172 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  
+  font-family: sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  background-color: #FEFEFE;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 64px;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.header span {
+  font-size: 24px;
+  color: blue;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  margin-left: 16px;
+  padding: 8px;
+}
+
+.menu ul li:hover {
+  color: blue;
+}
+
+main {
+  padding: 0 64px;
+}
+
+.about {
+  background-image: url('https://img.freepik.com/free-photo/view-new-york-city-usa_53876-160509.jpg?w=1060&t=st=1661384990~exp=1661385590~hmac=f7c6d6424de9eb0800bd09597ff62145a331e09c459a3e8284ab368c131b061a');
+  height: 80vh;
+}
+
+.about div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  height: 100%;
+  color: white;
+  background-color: rgba(0, 0, 102, 0.5);
+
+}
+
+.about h1,
+.about p {
+  margin: 0 50px;
+}
+
+.about h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.practice-container{
+  display: flex;
+  justify-content: center;
+}
+
+.practice {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.practice-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 32px;
+  column-gap: 98px;
+}
+
+.practice-items li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.practice-items i {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.practice-items h4{
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.vision {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.vision-text {
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+  background-color:rgb(1, 1, 65);
+  color: white;
+  padding: 32px 150px;
+}
+
+.vision p {
+  margin-bottom: 30px;
+}
+
+.employees {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 100px;
+  margin-bottom: 64px;
+}
+
+.employees .employees-item img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 8px;
+  border-radius: 50%;
+}
+
+.employees .employees-item p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+  color: white;
+  background-color:rgb(1, 1, 65);
+}
